@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lnpr-book-codes"
+version = "0.1.0"
+description = ""
+authors = ["s000ne <sone.h0710@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "1.25.1"
+scipy = "1.11.4"
+matplotlib = "3.7.4"
+seaborn = "0.12.2"
+pandas = "1.5.3"
+jupyterlab = "^4.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
